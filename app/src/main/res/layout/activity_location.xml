@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.csu.surajpokhrel.outfit_diary.allAccess.LocationActivity">
+
+    <EditText
+        android:id="@+id/putname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"/>
+    <EditText
+        android:id="@+id/putlat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Latitude"/>
+    <EditText
+        android:id="@+id/putlog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longitude"/>
+    <EditText
+        android:id="@+id/putinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Info"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_click_function"
+        android:id="@+id/btAddPlace"
+        android:text="Add Place"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/placeList">
+
+    </ListView>
+</LinearLayout>

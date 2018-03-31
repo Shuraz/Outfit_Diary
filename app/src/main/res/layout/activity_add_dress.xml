@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.csu.surajpokhrel.outfit_diary.utility.AddDress">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        >
+
+        <Button
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_click_function"
+            android:text="Browse"
+            android:onClick="btnBrowse_Click"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="181dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_click_function"
+            android:text="Take Pic"
+            android:onClick="btnTakePic_Click"/>
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:id="@+id/imageView"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtImageName"
+        android:hint="Image name"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_click_function"
+        android:layout_margin="5dp"
+        android:text="Upload image"
+        android:onClick="btnUpload_Click"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_click_function"
+        android:layout_margin="5dp"
+        android:text="Show list image"
+        android:onClick="btnShowListImage_Click"/>
+
+</LinearLayout>

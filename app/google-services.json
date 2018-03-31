@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "894627180624",
+    "firebase_url": "https://outfitdiary-3f9ad.firebaseio.com",
+    "project_id": "outfitdiary-3f9ad",
+    "storage_bucket": "outfitdiary-3f9ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894627180624:android:8e84223834949681",
+        "android_client_info": {
+          "package_name": "edu.csu.surajpokhrel.outfit_diary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894627180624-m6ib3bst1cs0ag2f65gjlgghs1iduiir.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.csu.surajpokhrel.outfit_diary",
+            "certificate_hash": "9034144f9074555e1fc9fb2d24f59e2adcf1d735"
+          }
+        },
+        {
+          "client_id": "894627180624-ojqfp7dcd8q6hoku4isrkjcp2ua3tm8l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjMgP1mRjxlykseWZXfekGQOp81TfNGWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894627180624-ojqfp7dcd8q6hoku4isrkjcp2ua3tm8l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

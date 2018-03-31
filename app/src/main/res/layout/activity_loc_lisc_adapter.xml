@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.csu.surajpokhrel.outfit_diary.allAccess.LocListAdapter">
+    <TextView
+        android:id="@+id/pname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"/>
+    <TextView
+        android:id="@+id/plat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Latitude"/>
+    <TextView
+        android:id="@+id/plog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Longitude"/>
+    <TextView
+        android:id="@+id/pinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Info"/>
+
+</LinearLayout>

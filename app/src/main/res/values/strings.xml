@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Outfit Diary</string>
+    <string name="title_activity_second_screen">SecondScreen</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="notification">Notification</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_button">Home Button</string>
+    <string name="account_button">Account Buttton</string>
+    <string name="notification_button">Notification Button</string>
+    <string name="search_button">Search Button</string>
+    <string name="btnAccount"> Account Button</string>
+    <string name="title_activity_maps_visit">Map</string>
+    <string name="title_activity_location_weather">LocationWeatherActivity</string>
+</resources>

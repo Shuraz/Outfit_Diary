@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context="edu.csu.surajpokhrel.outfit_diary.allAccess.AboutActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:textSize="24dp"
+              android:textStyle="bold"
+              android:text="Introduction"/>
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp"
+              android:textSize="16dp"
+              android:text="Now a day we all have busy life style and our dress not only changes with the season but frequently with the tasks and events such as job, party, tours and travels, weekends, etc. Outfit Diary is the android application that helps to manage wears in advance. It makes the day to day life easy and promote the life style. This application will be the only platform for inspiration, organization, and making special deals on style services.
+"
+              />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:textSize="24dp"
+              android:textStyle="bold"
+              android:text="Dress Ideas"/>
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:textSize="16dp"
+              android:padding="10dp"
+              android:text="User do not need to login for these features. This app recommends clothes to wear for any season or weather and things to carry in different places, events, etc.
+User can find latest dresses for summer, winter, spring, autumn, fall or rainy. This Outfit Diary will help to get clothes for different occasion.
+Furthermore, location of new place to visit, information about climate, local time zone provided.
+"
+              />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:textSize="24dp"
+              android:textStyle="bold"
+              android:text="Planning wardrobe"/>
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:textSize="16dp"
+              android:padding="10dp"
+              android:text="User need to login with their username and password so that they can upload image from camera, from device storage memory or from direct url of image location. Their they can view their own dresses in number of ways i.e. colour, number of time worn, recent, old or group.Outfit diary will also help users manage and view all their dresses and wearable accessories, and this will make them easier for planning for any occasion wear.
+"
+          />
+
+
+      </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

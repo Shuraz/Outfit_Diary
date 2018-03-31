@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.csu.surajpokhrel.outfit_diary.allAccess.Home">
+
+
+    <ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp">
+
+        <LinearLayout
+            android:id="@+id/lr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <Button
+                android:id="@+id/btninterview"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/btnparty"
+                android:background="@mipmap/ic_interview"
+                android:text="Interview"
+                android:onClick="btnInterview_Click"/>
+
+            <Button
+                android:id="@+id/btnparty"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/ic_celebration"
+                android:text="Celebration"
+                android:onClick="btnParty_Click"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lr1"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <Button
+                android:id="@+id/btnMaternity"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/btnbeach"
+                android:background="@mipmap/ic_maternity"
+                android:text="Pregnancy"
+                android:onClick="btnMaternity_Click"
+                />
+
+            <Button
+                android:id="@+id/btnbeach"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@mipmap/ic_beach"
+                android:onClick="btnBeach_Click"
+                android:layout_alignParentRight="true"
+                android:text="Beach" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lr2"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <Button
+                android:id="@+id/btnsummer"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/btnwinter"
+                android:background="@mipmap/ic_summer"
+                android:text="Summer"
+                android:onClick="btnSummer_Click"/>
+
+            <Button
+                android:id="@+id/btnwinter"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/ic_winter"
+                android:text="Winter"
+                android:onClick="btnWinter_Click"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lr4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lr3"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <Button
+                android:id="@+id/btnformal"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/btntours"
+                android:background="@mipmap/ic_formal"
+                android:text="Formal"
+                android:onClick="btnFormal_Click"/>
+
+            <Button
+                android:id="@+id/btntours"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/ic_tours"
+                android:text="Visit"
+                android:onClick="btnTours_Click"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+</RelativeLayout>
